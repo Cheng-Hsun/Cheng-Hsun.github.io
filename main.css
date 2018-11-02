@@ -19,14 +19,19 @@ p {
     margin-bottom: -10px;
 }
 
+
 .p-mid {
     text-align: center;
     
 }
 
 .p-title {
-    font-size:30px;
+    font-size:28px;
     font-weight: bold;
+}
+
+.p-br {
+    margin-bottom:20px;
 }
 
 #a-pic {
