@@ -1,0 +1,47 @@
+body {
+  background: white;
+  font-family: 'Fauna One', serif;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 45px;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#a-pic {
+    align-self: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#about .signature {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 150%;
+    float: right;
+    color: #0d2435;
+    opacity: .9;
+}
+
+#about::before {
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #131c23;
+    margin: 0 auto;
+    content: "";
+    display: block;
+}
+
