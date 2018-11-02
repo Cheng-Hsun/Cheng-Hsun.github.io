@@ -16,6 +16,17 @@ body {
 
 p {
     font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.p-mid {
+    text-align: center;
+    
+}
+
+.p-title {
+    font-size:30px;
+    font-weight: bold;
 }
 
 #a-pic {
@@ -24,6 +35,10 @@ p {
 
 .img-circle {
     border-radius: 50%;
+}
+
+.smaller {
+    width: 90%;
 }
 
 #about .signature {
@@ -45,3 +60,8 @@ p {
     display: block;
 }
 
+#experience::before {
+    height: 50px;
+    content: "";
+    display: block;
+}
